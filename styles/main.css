@@ -1,0 +1,61 @@
+/*
+CSS Variables, make sure to use fallbacks while using variables - (2pts)
+Custom Fonts (also with fallback for slow load or failure) - (3pts)
+Relative units like em, rem, %, etc. (1pts)
+Dynamic viewport units dvw, dvh, etc (1 pts)
+CSS Animations, Transitions and Transforms (9pts)
+Media Queries (See Part 3 - Responsive Web Design)
+*/
+
+html,
+body{
+    background-color: maroon;
+    font-family:'Times New Roman', Times, serif;
+}
+
+@font-face {
+    font-family: myFirstFont, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400dvw;
+    src: url(../fonts/QuickKissPersonalUse-PxlZ.ttf);
+}
+
+header {
+    font-family: myFirstFont;
+    font-size: 3rem;
+    color: white;
+}
+
+
+img {
+    margin: 10px;
+}
+
+picture {
+    margin: 10px;
+}
+
+.ems li {
+    font-size: 1.3em;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+
+footer {
+    font-size: small;
+    text-align: center;
+}
+
+
+

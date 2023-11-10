@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Labs/Experiments</title>
+    <link href="styles/main.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <header>
+        <h1>Labs/Experiments</h1>
+    </header>
+    <main>
+        <h2>Navigation Bar</h2>
+        <nav>
+            <ol class="ems">
+                <li><a href="experiments.html">Labs/Experiments</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="previous.html">Previous Works</a></li>
+                <li><a href="resume.html">Resume/Skills</a></li>
+            </ol>
+        </nav>
+
+        <section class="script">
+            <h3>
+                Example of Canvas and Script
+            </h3>
+            <!--This is an example of canvas and script together-->
+            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"> </canvas>
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.moveTo(0, 0);
+                ctx.lineTo(200, 100);
+                ctx.stroke();
+            </script>
+        </section>
+
+        <!--Example of Images-->
+        <section class="img">
+            <h3> Image</h3>
+            <img src="images/pokemon_detective_pikachu_magnifying_glass.jpg" alt="Detective Pikachu" class="responsive" width="600" height="400">
+        </section>
+
+        <section class="picture">
+            <h3> Picture</h3>
+            <picture>
+                <source media="(min-width:650px)" srcset="images/Squirtle.jpg" class="responsive" width="600" height="400">
+                <source media="(min-width:465px)" srcset="images/Charmander.webp" class="responsive" width="600" height="400">
+                <img src="images/001Bulbasaur_AG_anime.webp" alt="Bulbasaur" style="width:auto;">
+            </picture>
+
+        </section>
+
+        <!--Example of Links-->
+        <section class="links">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="https://www.polygon.com/entertainment/23560467/pokemon-detective-pikachu-2-release-update">Detective Pikachu</a></li>
+            </ul>
+        </section>
+
+        <!--Example of Button-->
+        <section id="button">
+            <h3>Button</h3>
+            <button type="button">Button</button>
+        </section>
+
+        <!--Example of inline-->
+        <section class="iframe">
+            <h3>iframe</h3>
+            <iframe
+                id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="300"
+                height="200"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+            </iframe>
+        </section>
+
+        <section class="code">
+            <h3>Code</h3>
+            <p>The code <code>pop()</code> method removes an element from the array and returns the element removed.</p>
+        </section>
+
+        <section class="datalist">
+            <h3>Datalist</h3>
+            <label for="color-choice">Choose a color:</label>
+            <input list="colors" id="color-choice" name="color-choice" />
+
+            <datalist id="colors">
+                <option value="Red"></option>
+                <option value="Blue"></option>
+                <option value="Yellow"></option>
+                <option value="Green"></option>
+                <option value="Orange"></option>
+                <option value="Purple"></option>
+            </datalist>
+        </section>
+
+        <section class="figure">
+            <h3>Figure</h3>
+            <figure>
+                <img src="images/Baby_penguin_wikimedia_commons.jpg" alt="Baby Penguin" class="responsive" width="600" height="400" />
+                <figcaption>A baby penguin</figcaption>
+            </figure>
+            
+            
+
+        </section>
+
+        <section class="aside">
+            <h3>Aside</h3>
+            <p>The black and white "tuxedo" look donned by most penguin species is a clever camoflage called countershading.</p>
+            <aside>
+                <p>When swimming, the black on their backs helps them blend in with the darkness of the ocean from predators viewing from above.
+                </p>
+            </aside>
+            <p>Their white bellies help them blend in with the bright surface of the ocean when viewed by predators and prey from below.</p>
+            <a href="https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins">Cool Facts about Penguins</a>
+        </section>
+
+    </main>
+</body>
+</html>
