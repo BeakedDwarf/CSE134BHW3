@@ -69,6 +69,19 @@ div {
     background-color: red;
     animation-name: example;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: width 2s;
+}
+
+div.a {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: rotate(20deg);
+}
+
+div:hover {
+    width: 300px;
 }
 
 
