@@ -14,14 +14,14 @@ body{
 }
 
 @font-face {
-    font-family: myFirstFont, Arial, Helvetica, sans-serif;
+    font-family: "myFirstFont";
     font-style: normal;
-    font-weight: 400dvw;
+    font-weight: 400;
     src: url(../fonts/QuickKissPersonalUse-PxlZ.ttf);
 }
 
 header {
-    font-family: myFirstFont;
+    font-family: "myFirstFont", Arial, Helvetica, sans-serif;
     font-size: 3rem;
     color: white;
 }
